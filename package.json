@@ -1,0 +1,23 @@
+{
+  "name": "lightbot",
+  "version": "1.0.0",
+  "description": "a robot for our lights",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lights",
+    "nanoleaf"
+  ],
+  "author": "Ben Coe <ben@npmjs.com>",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.4.1",
+    "aws-api-lambda-scaffold": "0.0.1-security",
+    "dotenv": "^4.0.0",
+    "nanoleaves": "^1.2.0",
+    "travis-ci": "^2.1.1",
+    "yargs": "^8.0.2"
+  }
+}
